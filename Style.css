@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+p {
+    text-align: center;
+    color: rgb(220, 186, 243);
+    font-family: 'kablammo';
+    text-shadow: 10px 10px 10px rgb(220, 104, 243);
+}
+
+h1 {
+font-family: 'kablammo'; 
+Color: Orange;
+text-shadow: 10px 10px 15px rgb(245, 7, 7);
+text-align: center
+}
+    
+img {
+margin-left: 80px;
+width: 450px;
+height: 500px;
+border-radius: 15px;
+box-shadow: 10px 10px 15px black;
+}
+img:hover {
+    transition: 0.4s;
+    rotate: 1deg;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(255, 115, 0, 0.5);
+}
+
+body {
+background-color:rgb(114, 24, 133)
+}
+
+button {
+    width: 220px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: rgb(241, 155, 56);
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 10px 10px 15px black;
+    border: 4px solid rgb(139, 78, 20);
+    opacity: 100%;
+}
+
+
+
+button:hover{
+    transition: 0.4s;
+    background: #ff7300;
+    color: #180D20;
+    box-shadow: 0 0 20px #9b0b0b;
+    transform: scale(1.08);
+}
